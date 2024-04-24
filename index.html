@@ -1,11 +1,128 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <link rel="stylesheet" href="index.css">
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <div></div>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasama Website</title>
+    <link rel="stylesheet" href="https://use.typekit.net/wlz6jeq.css">
+    <link rel="stylesheet" href="styles/stylesheet.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script defer src="js/index.js"></script>
+</head>
+<body>
+    <div class="header-div">
+        <div>
+            <img src="images/ddn300_kasamalogo 1.png" width="336px" height="106px">
+        </div>
+        <div class="button">
+            <a href="#" class="reserve-button">reserve now</a>
+        </div>
+    </div>
+    <section class="hero-bg-img center">
+        <div class="hero-bg-gradient center">
+            <div class="nav">
+                <a href="#" class="nav-links">MENU</a>
+                <a href="#" class="nav-links">ORDER ONLINE</a>
+                <a href="#" class="nav-links">RESERVATIONS</a>
+                <a href="#" class="nav-links">ABOUT</a>
+            </div>
+            <div class="first-image">
+                <img src="images/DDN300_Kasama_tablehero.jpg" alt="table img" width="588px" height="392px" class="first-image-sizing">
+            </div>
+            <div class="info">
+                <div class="info-section">
+                    <h4 class="info-header">location</h4>
+                    <p class="info-p">1001 N. Winchester Ave. <br> Chicago, Illinois 60622</p>
+                </div>
+                <div class="info-section">
+                    <h4 class="info-header">hours</h4>
+                    <p class="info-p">Wednesday-Sunday 9am-3pm <br> (kitchen and dining room close at 2pm)</p>
+                </div>
+                <div class="info-section">
+                    <h4 class="info-header">contact</h4>
+                    <p class="info-p">(773) 697-3790 <br> info@kasamachicago.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <!-- featured items -->
+        <div>
+            <h2 class="featured-items">FEATURED ITEMS</h2>
+            <section class="flex-container">
+                <div>
+                    <img src="images/DDN300_Kasama_menuitem1.png" width="261px" height="498px" alt="item 1" class="img-margin">
+                </div>
+                <div class="rectangle-border">
+                    <h4 class="text-padding">shrimp lo mein</h4>
+                    <p class="text-padding">rice noodles, shrimp, bell peppers, carrots, onions, cabbage, chili flakes, <br> with boiled eggs</p>
+                </div>
+                <div>
+                    <img src="images/DDN300_Kasama_menuitem2.png" width="261px" height="498px" alt="item 2" class="img-margin">
+                </div>
+                <div class="rectangle-border">
+                    <h4 class="text-padding">pancit canton</h4>
+                    <p class="text-padding">flour stir-fry noodles, pork, chicken, cabbage, carrots, bell peppers, green onions, snow peas</p>
+                </div>
+            </section>
+            <section class="flex-container">
+                <div>
+                    <img src="images/DDN300_Kasama_menuitem3.png" width="261px" height="498px" alt="item 3" class="img-margin">
+                </div>
+                <div class="rectangle-border">
+                    <h4 class="text-padding">buco tart</h4>
+                    <p class="text-padding">sweet pastry dough, young coconut meat, condensed milk, egg yolks</p>
+                </div>
+                <div>
+                    <img src="images/DDN300_Kasama_menuitem4.png" width="261px" height="498px" alt="item 4" class="img-margin">
+                </div>
+                <div class="rectangle-border">
+                    <h4 class="text-padding">tapsilog</h4>
+                    <p class="text-padding">tapa (cured beef), sinangag (garlic fried rice), itlog <br> (fried egg).</p>
+                </div>
+            </sEction>
+        </div>
+    </div>
+    <div>
+        <!-- menu types -->
+        <section class="menu-gradient-bg">
+            <div class="menu-types">
+                <div>
+                    <a href="#" class="menu-type-links">BAKERY</a>
+                </div>
+                <div>
+                    <a href="#" class="menu-type-links">LUNCH</a>
+                </div>
+                <div>
+                    <a href="#" class="menu-type-links">DINNER</a>
+                </div>
+            </div>
+        </section>
+        <!-- bottom photos -->
+        <div class="gallery-bg">
+            <div class="bottom-gallery">
+                <div>
+                    <img src="images/DDN300_Kasama_1.png" width="336px" height="471px" alt="pic 1" class="gallery-padding">
+                    <img src="images/DDN300_Kasama_2.png" width="423px" height="471px" alt="pic 2" class="gallery-padding">
+                    <img src="images/DDN300_Kasama_3.png" width="336px" height="471px" alt="pic 4" class="gallery-padding">
+                </div>
+            </div>
+        </div> 
+        <!-- footer -->
+        <div class="footer">
+            <div class="logo-bottom">
+                <img src="images/ddn300_kasamalogo 1.png" width="px" height="px" alt="kasama logo" class="bottom-logo-size">
+            </div>
+            <div class="socials">
+                <div>
+                    <img src="images/ddn300_facebooklogo 2.png" width="70px" height="70px" alt="facebook logo" class="social-width">
+                </div>
+                <div>
+                    <img src="images/ddn300_instagramlogo 1.png" width="70px" height="70px" alt="insta logo" class="social-width">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
